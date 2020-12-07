@@ -1,0 +1,87 @@
+/*Generals*/
+* {
+    font-style: Arial;
+    margin: none;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    background: transparent;
+    padding: 0%;
+    justify-content: space-around;
+}
+
+/* Menu */
+
+.menu-bar {
+    position: sticky;
+    z-index: 999;
+    top:0;
+    left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(22, 76, 190);
+}
+
+
+/*Body*/
+
+.me-container {
+    display: flexbox;
+    margin: 15%;
+    border: double white;
+    text-align: center;
+    width: auto;
+}
+
+.name {
+    color: white;
+    font-size: auto;
+}
+
+.about-me {
+    margin-top: 18%;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    font-size: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    border: solid red;
+}
+.service-1 {
+    display: flex;
+    justify-content: center;
+    border-color: red;
+}
