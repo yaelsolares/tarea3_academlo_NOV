@@ -1,4 +1,8 @@
 
+.container {
+    width: 80%;
+    margin: auto;
+}
 @media (max-width: 575px){
     .col-1 {width: 100%;}
     .col-2 {width: 100%;}
